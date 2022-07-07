@@ -47,7 +47,7 @@ if __name__ == '__main__':
 # streamlit run -----.py
 
 # タイトルの表示
-if login():
+if get_hash(password) == hashed_password:
     st.title('Streamlit 超入門')
 
     st.write('プログレスバーの表示')
